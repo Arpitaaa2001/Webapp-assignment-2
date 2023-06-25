@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: relative;
+            height: 40vh;
+            width: 100%;
+            background-image: url('../images/background.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .header {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;           
+            padding: 10px;
+            color: white;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+            
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+        }
+
+        .action{
+            border: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <span>Bedford</span>
+            <span>FOUNDATION</span>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>NEWS</li>
+                <li>READ ME</li>
+                <li class="action">TAKE ACTION</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+</html>
